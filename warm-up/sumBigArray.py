@@ -10,4 +10,3 @@ output = sumBigArray(array)
 # Print output
 print("==================")
 print("Output: " + str(output))
-
