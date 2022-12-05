@@ -4,13 +4,10 @@ def gradingStudent(grades):
     response = []
     for i in grades:
         sub = i%5;
-        print(sub)
-        if sub <= 2:
+        if sub < 3 or i < 38 :
             number = i
-        elif sub > 2:
+        else:
             number = (i//5 + 1) * 5
-            if number < 40:
-                number = i
         response.append(number)
         
     return response
