@@ -1,4 +1,4 @@
-# 1. Solution: count grading student
+# 1. Solution: Counting Grading Student
 
 def gradingStudent(grades):
     response = []
